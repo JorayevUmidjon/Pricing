@@ -1,0 +1,826 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap");
+body {
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+header .content2 nav ul {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 37px;
+       column-gap: 37px;
+}
+header .content2 nav ul li {
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  list-style-type: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+header .content2 nav ul a {
+  text-decoration: none;
+}
+header .content2 nav ul li:hover {
+  opacity: 0.3;
+}
+header .content3 {
+  display: flex;
+  align-items: center;
+}
+header .content3 svg {
+  display: none;
+}
+header .content3 button {
+  width: 158px;
+  height: 40px;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: #000;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+header .content3 button:hover {
+  background: #DFDFDF;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main .wrapper {
+  display: flex;
+}
+main .wrapper .content {
+  max-width: 610px;
+  height: 490px;
+  background-color: #000;
+}
+main .wrapper .content .element {
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+  padding-top: 173px;
+  padding-left: 122px;
+  padding-right: 111px;
+  padding-bottom: 173px;
+}
+main .wrapper .content .element h1 {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+main .wrapper .content .element p {
+  width: 387px;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.6;
+}
+main .wrapper .content-two {
+  width: 830px;
+  height: 490px;
+  background-image: url(../img/Bitmap\ \(45\).png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main .wrapper .content-three img {
+  display: none;
+}
+main .promo {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+main .promo .promo-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 255px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+main .promo .promo-content .elements p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+main .promo .promo-content .elements3 p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  opacity: 0.5;
+}
+main .promo .promo-content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .promo .promo-content2 .card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  padding-top: 56px;
+  padding-bottom: 40px;
+}
+main .promo .promo-content2 .card1 .nersa .a h2 {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px; /* 104.167% */
+  margin-bottom: 18px;
+}
+main .promo .promo-content2 .card1 .nersa .a p {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+main .promo .promo-content2 .card1 .nersa .b h3 {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+main .promo .promo-content2 .card1 .nersa .b p {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+main .promo .promo-content2 .card1 button {
+  width: 270px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+main .promo .promo-content2 .card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  background-color: #000;
+  padding-top: 88px;
+  padding-bottom: 71px;
+}
+main .promo .promo-content2 .card2 .nersa .a h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px; /* 104.167% */
+  margin-bottom: 18px;
+}
+main .promo .promo-content2 .card2 .nersa .a p {
+  max-width: 270px;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.6;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+main .promo .promo-content2 .card2 .nersa .b h3 {
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+main .promo .promo-content2 .card2 .nersa .b p {
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+main .promo .promo-content2 .card2 button {
+  width: 270px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+main .promo .promo-content2 .card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  padding-top: 56px;
+  padding-bottom: 40px;
+}
+main .promo .promo-content2 .card3 .nersa .a h2 {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px; /* 104.167% */
+  margin-bottom: 18px;
+}
+main .promo .promo-content2 .card3 .nersa .a p {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+main .promo .promo-content2 .card3 .nersa .b h3 {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+main .promo .promo-content2 .card3 .nersa .b p {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+main .promo .promo-content2 .card3 button {
+  width: 270px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+main .parrent {
+  max-width: 1440px;
+  height: 280px;
+  background-image: url(../img/Bitmap\ \(47\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .parrent .info {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .parrent .info h2 {
+  max-width: 400px;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+main .parrent .info .hr {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+main .parrent .info .hr h3 {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+footer .footer-container {
+  width: 100%;
+  max-width: 1104px;
+  display: flex;
+  margin: 0 auto;
+  padding: 65px 0px;
+  justify-content: space-between;
+}
+footer .footer-container .footer-coll {
+  display: flex;
+  width: 359px;
+  justify-content: space-between;
+}
+footer .footer-container .footer-coll .front {
+  height: 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer-container .footer-coll .front .footer-links {
+  display: flex;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+footer .footer-container .footer-coll .footer__nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+footer .footer-container .footer-coll .footer__nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer .footer-container .footer__col {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer-container .footer__col .link {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  width: 168px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+footer .footer-container .footer__col p {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media (max-width: 810px) {
+  header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  main .wrapper .content .element {
+    padding: 0;
+    padding-top: 173px;
+    padding-bottom: 173px;
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+  main .promo .promo-content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .promo .promo-content2 .card1 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 690px;
+    justify-content: space-between;
+  }
+  main .promo .promo-content2 .card1 .nersa {
+    display: flex;
+    max-width: 690px;
+    justify-content: space-between;
+  }
+  main .promo .promo-content2 .card1 .nersa .a h2 {
+    text-align: left;
+  }
+  main .promo .promo-content2 .card1 .nersa .a p {
+    width: 270px;
+    text-align: left;
+  }
+  main .promo .promo-content2 .card1 .nersa .b {
+    padding-left: 200px;
+  }
+  main .promo .promo-content2 .card1 .nersa .b h3 {
+    text-align: left;
+  }
+  main .promo .promo-content2 .card1 .nersa .b p {
+    text-align: right;
+  }
+  main .promo .promo-content2 .card1 .nersa button {
+    padding: 0;
+  }
+  main .promo .promo-content2 .card2 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 690px;
+    justify-content: space-between;
+    padding: 0;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 48px;
+  }
+  main .promo .promo-content2 .card2 .nersa {
+    display: flex;
+  }
+  main .promo .promo-content2 .card2 .nersa .a h2 {
+    text-align: left;
+  }
+  main .promo .promo-content2 .card2 .nersa .a p {
+    width: 270px;
+    text-align: left;
+    padding: 0;
+  }
+  main .promo .promo-content2 .card2 .nersa .b {
+    padding-left: 200px;
+  }
+  main .promo .promo-content2 .card2 .nersa .b h3 {
+    text-align: left;
+  }
+  main .promo .promo-content2 .card2 .nersa .b p {
+    text-align: right;
+  }
+  main .promo .promo-content2 .card2 .nersa button {
+    padding: 0;
+  }
+  main .promo .promo-content2 .card3 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 690px;
+    justify-content: space-between;
+  }
+  main .promo .promo-content2 .card3 .nersa {
+    display: flex;
+    max-width: 690px;
+    justify-content: space-between;
+  }
+  main .promo .promo-content2 .card3 .nersa .a h2 {
+    text-align: left;
+  }
+  main .promo .promo-content2 .card3 .nersa .a p {
+    width: 270px;
+    text-align: left;
+  }
+  main .promo .promo-content2 .card3 .nersa .b {
+    padding-left: 200px;
+  }
+  main .promo .promo-content2 .card3 .nersa .b h3 {
+    text-align: left;
+  }
+  main .promo .promo-content2 .card3 .nersa .b p {
+    text-align: right;
+  }
+  main .promo .promo-content2 .card3 .nersa button {
+    padding: 0;
+  }
+}
+@media (max-width: 715px) {
+  header {
+    padding-top: 28px;
+    padding-left: 24px;
+    padding-right: 33px;
+    padding-bottom: 28px;
+  }
+  header nav {
+    display: none;
+  }
+  header button {
+    display: none;
+  }
+  header .content3 svg {
+    display: inline-block;
+  }
+  main .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  main .wrapper .content {
+    max-width: 375px;
+    height: 300px;
+    margin-top: -5px;
+    padding: 0;
+  }
+  main .wrapper .content .element {
+    padding: 0;
+    padding-top: 72px;
+    padding-left: 29px;
+    padding-right: 28px;
+  }
+  main .wrapper .content .element h1 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 3.333px;
+    text-transform: uppercase;
+  }
+  main .wrapper .content-two {
+    width: 375px;
+    height: 294px;
+    display: none;
+  }
+  main .wrapper .content-three img {
+    display: inline-block;
+  }
+  main .promo .promo-content2 .card1 .nersa {
+    display: flex;
+    flex-direction: column;
+  }
+  main .promo .promo-content2 .card1 .nersa .a h2 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px; /* 104.167% */
+    margin-bottom: 18px;
+  }
+  main .promo .promo-content2 .card1 .nersa .a p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    opacity: 0.6;
+    margin-bottom: 40px;
+  }
+  main .promo .promo-content2 .card1 .nersa .b {
+    padding: 0;
+  }
+  main .promo .promo-content2 .card1 .nersa .b h3 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+  }
+  main .promo .promo-content2 .card1 .nersa .b p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    opacity: 0.6;
+    margin-bottom: 40px;
+  }
+  main .promo .promo-content2 .card1 button {
+    width: 270px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background: #000;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  main .promo .promo-content2 .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    background-color: #000;
+    padding: 0;
+    padding-top: 88px;
+    padding-bottom: 71px;
+  }
+  main .promo .promo-content2 .card2 .nersa {
+    display: flex;
+    flex-direction: column;
+  }
+  main .promo .promo-content2 .card2 .nersa .a h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px; /* 104.167% */
+    margin-bottom: 18px;
+  }
+  main .promo .promo-content2 .card2 .nersa .a p {
+    max-width: 270px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    opacity: 0.6;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+  }
+  main .promo .promo-content2 .card2 .nersa .b {
+    padding: 0;
+  }
+  main .promo .promo-content2 .card2 .nersa .b h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+  }
+  main .promo .promo-content2 .card2 .nersa .b p {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    opacity: 0.6;
+    margin-bottom: 40px;
+  }
+  main .promo .promo-content2 .card2 button {
+    width: 270px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  main .promo .promo-content2 .card3 .nersa {
+    display: flex;
+    flex-direction: column;
+  }
+  main .promo .promo-content2 .card3 .nersa .a h2 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px; /* 104.167% */
+    margin-bottom: 18px;
+  }
+  main .promo .promo-content2 .card3 .nersa .a p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    opacity: 0.6;
+    margin-bottom: 40px;
+  }
+  main .promo .promo-content2 .card3 .nersa .b {
+    padding: 0;
+  }
+  main .promo .promo-content2 .card3 .nersa .b h3 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+  }
+  main .promo .promo-content2 .card3 .nersa .b p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    opacity: 0.6;
+    margin-bottom: 40px;
+  }
+  main .promo .promo-content2 .card3 button {
+    width: 270px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background: #000;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  main .parrent .info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+  footer {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+  }
+  footer .footer-container {
+    width: 100%;
+    max-width: 1104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 65px 0px;
+  }
+  footer .footer-container .footer-coll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 170px;
+  }
+  footer .footer-container .footer-coll .front {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70px;
+  }
+  footer .footer-container .footer-coll .front .footer-links {
+    display: flex;
+    -moz-column-gap: 12px;
+         column-gap: 12px;
+    margin-top: 32px;
+  }
+  footer .footer-container .footer-coll .footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 16px;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  footer .footer-container .footer-coll .footer__nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  footer .footer-container .footer__col {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 119px;
+  }
+  footer .footer-container .footer__col .link {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 168px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  footer .footer-container .footer__col p {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5025;
+  }
+}/*# sourceMappingURL=style.css.map */
